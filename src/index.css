@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-modified::-webkit-scrollbar {
+  background: transparent;
+  width: 0.3em;
+}
+
+.scroll-modified::-webkit-scrollbar-thumb {
+  padding: 0.4em;
+  border-radius: 100vh;
+  background: rgb(107 114 128);
+}
